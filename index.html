@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/drum-set.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onkeydown="recordKey(event)">
+    <h1>Drum kit</h1>
+    <div class="wrapper">
+        <div class="botao">
+            <button onclick="recordClic('a')" id="A">
+                <div class="inside">
+                    A <span>Bomm</span>
+                </div>
+            </button>
+        </div>
+
+        <div>
+            <button onclick="recordClic('s')" id="S">
+                <div class="inside">
+                    S <span>Clap</span>
+                </div>
+            </button>
+        </div>
+
+        <div>
+            <button onclick="recordClic('d')" id="D">
+                <div class="inside">
+                    D <span>Hihat</span>
+                </div>
+            </button>
+        </div>
+        <div>
+            <button onclick="recordClic('f')" id="F">
+                <div class="inside">
+                    F <span>Kick</span>
+                </div>
+            </button>
+        </div>
+        <div>
+            <button onclick="recordClic('g')" id="G">
+                <div class="inside">
+                    G <span>Openhat</span>
+                </div>
+            </button>
+        </div>
+        <div>
+            <button onclick="recordClic('h')" id="H">
+                <div class="inside">
+                    H <span>Ride</span>
+                </div>
+            </button>
+        </div>
+        <div>
+            <button onclick="recordClic('j')" id="J">
+                <div class="inside">
+                    J <span>Snare</span>
+                </div>
+            </button>
+        </div>
+        <div>
+            <button onclick="recordClic('k')" id="K">
+                <div class="inside">
+                    K <span>Tink</span>
+                </div>
+            </button>
+        </div>
+        <div>
+            <button onclick="recordClic('l')" id="L">
+                <div class="inside" >
+                    L <span>Tom</span>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

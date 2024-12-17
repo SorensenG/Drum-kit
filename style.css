@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(/images/1262446.webp);
+  background-image: url(https://wallpapercave.com/wp/wp2067862.jpg);
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -72,7 +72,7 @@ span {
 
 @media(max-width:500px) {
   body {
-    background-image: url(/OIP.jpeg);
+    background-image: url(https://th.bing.com/th/id/OIP.kESZ3DdezSvNYDEWbFf9ZgHaO0?rs=1&pid=ImgDetMain);
     background-size: 100%;
   }
 
